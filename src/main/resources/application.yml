@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/healthcare
+    username: root
+    password: akc@216AKC
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  application:
+    name: Health-care
+  security:
+    user:
+      name: krishna
+      password: akc@216AKC
+    
+
+
+server:
+  port: 8080
+
+sql:
+  query: insert into table values ('A')
+            
